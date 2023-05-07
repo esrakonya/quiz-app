@@ -1,0 +1,41 @@
+.questionCard {
+    max-width: 700px;
+    width: 100%;
+}
+
+.questionCard-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.questionCard button {
+    width: 48%;
+    height: 40px;
+    font-size: 17px;
+    margin: .3rem;
+    background-color: rgb(66, 125, 145);
+    border: 1px solid rgba(181, 198, 212, 0.589);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.questionCard button:hover {
+    background-color: rgb(119, 173, 204);
+    color: rgb(18, 85, 126);
+}
+
+.questionCard-timer {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
